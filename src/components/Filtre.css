@@ -1,0 +1,80 @@
+.filtre {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 1px solid #333;
+}
+
+.filtre h3 {
+  color: #e50914;
+  margin-bottom: 15px;
+}
+
+.filtre input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.rating-filter {
+  margin-bottom: 15px;
+}
+
+.rating-filter label {
+  color: #aaa;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* ← BARRE DE RATING PLUS PETITE */
+.rating-filter input[type="range"] {
+  width: 80px;        /* ← AVANT : 100% → APRÈS : 80px */
+  height: 3px;        /* ← PLUS FINE */
+  accent-color: #e50914;
+}
+
+.toggle-form {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-form:hover {
+  background-color: #b20710;
+}
+
+.filtre form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filtre form input {
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.filtre form button {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filtre form button:hover {
+  background-color: #27ae60;
+}

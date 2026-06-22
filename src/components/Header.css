@@ -1,0 +1,19 @@
+.header-title {
+  color: #f00713;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-radius: 12px;
+  background: rgba(10, 10, 10, 0.913);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  text-align: center;
+}
